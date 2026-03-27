@@ -6,6 +6,21 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8EA1CD7B2F738F3B009CCB3F /* KeyPressHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1CD7A2F738F38009CCB3F /* KeyPressHandler.swift */; };
+		8EA1CD7D2F738F43009CCB3F /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1CD7C2F738F41009CCB3F /* FlowLayout.swift */; };
+		8EA1CD802F738E80009CCB3F /* RemainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1CD792F738E79009CCB3F /* RemainApp.swift */; };
+		8EA1CD812F738E81009CCB3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1CD762F738E62009CCB3F /* ContentView.swift */; };
+		8EA1CD822F738E82009CCB3F /* TypingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1CD772F738E69009CCB3F /* TypingView.swift */; };
+		8EA1CD832F738E83009CCB3F /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1CD782F738E6F009CCB3F /* ResultView.swift */; };
+		8EA1CD842F738E84009CCB3F /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA1CD752F738E57009CCB3F /* GameState.swift */; };
+		8EA1CD842F739484009CCB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA1CD832F739484009CCB3F /* Assets.xcassets */; };
+		8EA1CD922F741568009CCB3F /* FingerPaint-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EA1CD852F739500009CCB3F /* FingerPaint-Regular.ttf */; };
+		8EA1CDB02F75376E009CCB3F /* rickrolled.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8EA1CDAF2F75376E009CCB3F /* rickrolled.mp4 */; };
+		8EA1CDB22F7664E2009CCB3F /* Crayola.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EA1CDB12F7664E2009CCB3F /* Crayola.ttf */; };
+		8EA1CDB42F7664E4009CCB3F /* Crayawn-v58y.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EA1CDB32F7664E4009CCB3F /* Crayawn-v58y.ttf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8EA1CD402F738A30009CCB3F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,25 +42,20 @@
 		8EA1CD322F738A2F009CCB3F /* Remain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA1CD3F2F738A30009CCB3F /* RemainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA1CD492F738A30009CCB3F /* RemainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA1CD752F738E57009CCB3F /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		8EA1CD762F738E62009CCB3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EA1CD772F738E69009CCB3F /* TypingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingView.swift; sourceTree = "<group>"; };
+		8EA1CD782F738E6F009CCB3F /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		8EA1CD792F738E79009CCB3F /* RemainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemainApp.swift; sourceTree = "<group>"; };
+		8EA1CD7A2F738F38009CCB3F /* KeyPressHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPressHandler.swift; sourceTree = "<group>"; };
+		8EA1CD7C2F738F41009CCB3F /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
+		8EA1CD832F739484009CCB3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EA1CD852F739500009CCB3F /* FingerPaint-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FingerPaint-Regular.ttf"; sourceTree = "<group>"; };
+		8EA1CD912F74148F009CCB3F /* Remain-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Remain-Info.plist"; sourceTree = "<group>"; };
+		8EA1CDAF2F75376E009CCB3F /* rickrolled.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rickrolled.mp4; sourceTree = "<group>"; };
+		8EA1CDB12F7664E2009CCB3F /* Crayola.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Crayola.ttf; sourceTree = "<group>"; };
+		8EA1CDB32F7664E4009CCB3F /* Crayawn-v58y.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Crayawn-v58y.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		8EA1CD342F738A2F009CCB3F /* Remain */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Remain;
-			sourceTree = "<group>";
-		};
-		8EA1CD422F738A30009CCB3F /* RemainTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RemainTests;
-			sourceTree = "<group>";
-		};
-		8EA1CD4C2F738A30009CCB3F /* RemainUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = RemainUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8EA1CD2F2F738A2F009CCB3F /* Frameworks */ = {
@@ -75,10 +85,15 @@
 		8EA1CD292F738A2F009CCB3F = {
 			isa = PBXGroup;
 			children = (
-				8EA1CD342F738A2F009CCB3F /* Remain */,
-				8EA1CD422F738A30009CCB3F /* RemainTests */,
-				8EA1CD4C2F738A30009CCB3F /* RemainUITests */,
+				8EA1CD912F74148F009CCB3F /* Remain-Info.plist */,
+				8EA1CD832F739484009CCB3F /* Assets.xcassets */,
+				8EA1CD872F739500009CCB3F /* Fonts */,
+				8EA1CD802F7390C1009CCB3F /* Helpers */,
+				8EA1CD7F2F7390BC009CCB3F /* Models */,
+				8EA1CD7E2F7390B8009CCB3F /* Views */,
+				8EA1CD792F738E79009CCB3F /* RemainApp.swift */,
 				8EA1CD332F738A2F009CCB3F /* Products */,
+				8EA1CDAF2F75376E009CCB3F /* rickrolled.mp4 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +105,43 @@
 				8EA1CD492F738A30009CCB3F /* RemainUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8EA1CD7E2F7390B8009CCB3F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8EA1CD782F738E6F009CCB3F /* ResultView.swift */,
+				8EA1CD772F738E69009CCB3F /* TypingView.swift */,
+				8EA1CD762F738E62009CCB3F /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8EA1CD7F2F7390BC009CCB3F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8EA1CD752F738E57009CCB3F /* GameState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8EA1CD802F7390C1009CCB3F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8EA1CD7C2F738F41009CCB3F /* FlowLayout.swift */,
+				8EA1CD7A2F738F38009CCB3F /* KeyPressHandler.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8EA1CD872F739500009CCB3F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8EA1CDB32F7664E4009CCB3F /* Crayawn-v58y.ttf */,
+				8EA1CDB12F7664E2009CCB3F /* Crayola.ttf */,
+				8EA1CD852F739500009CCB3F /* FingerPaint-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +158,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				8EA1CD342F738A2F009CCB3F /* Remain */,
 			);
 			name = Remain;
 			packageProductDependencies = (
@@ -130,9 +179,6 @@
 			dependencies = (
 				8EA1CD412F738A30009CCB3F /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				8EA1CD422F738A30009CCB3F /* RemainTests */,
-			);
 			name = RemainTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +198,6 @@
 			);
 			dependencies = (
 				8EA1CD4B2F738A30009CCB3F /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				8EA1CD4C2F738A30009CCB3F /* RemainUITests */,
 			);
 			name = RemainUITests;
 			packageProductDependencies = (
@@ -212,6 +255,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EA1CD842F739484009CCB3F /* Assets.xcassets in Resources */,
+				8EA1CDB02F75376E009CCB3F /* rickrolled.mp4 in Resources */,
+				8EA1CDB22F7664E2009CCB3F /* Crayola.ttf in Resources */,
+				8EA1CD922F741568009CCB3F /* FingerPaint-Regular.ttf in Resources */,
+				8EA1CDB42F7664E4009CCB3F /* Crayawn-v58y.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +284,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EA1CD802F738E80009CCB3F /* RemainApp.swift in Sources */,
+				8EA1CD812F738E81009CCB3F /* ContentView.swift in Sources */,
+				8EA1CD822F738E82009CCB3F /* TypingView.swift in Sources */,
+				8EA1CD832F738E83009CCB3F /* ResultView.swift in Sources */,
+				8EA1CD7B2F738F3B009CCB3F /* KeyPressHandler.swift in Sources */,
+				8EA1CD7D2F738F43009CCB3F /* FlowLayout.swift in Sources */,
+				8EA1CD842F738E84009CCB3F /* GameState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +458,8 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Remain-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -435,6 +492,8 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Remain-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
